@@ -14,7 +14,7 @@ Utilize qualquer API de super-heróis disponível publicamente (como SuperHero A
   1. **E-mail**: Validar para somente autenticar com o e-mail `teste@teste.com.br`
   2. **Senha**: Validar para somente autenticar com a senha `teste123`
 
-### 1. Tela principal com 3 abas:
+### 1. Tela principal:
 - O aplicativo deve conter uma barra de navegação com 3 abas:
   1. **Lista de Heróis**: Exibir uma lista paginada de heróis (nome, imagem).
   2. **Detalhes do Herói**: Ao selecionar um herói na aba "Lista de Heróis", os detalhes desse herói (nome, poderes, biografia) devem ser exibidos nesta aba.
@@ -36,7 +36,7 @@ Utilize qualquer API de super-heróis disponível publicamente (como SuperHero A
   - Cada herói exibido aqui deve ter um botão para ser removido da lista de favoritos.
 
 ### 3. Gerenciamento de Estado:
-- Implementar um **Cubit** separado para gerenciar o estado de cada aba:
+- Implementar um **Cubit** separado para gerenciar o estado de cada aba, fazendo troca de informações entre eles:
   - **Lista de Heróis Cubit**: Gerencia a lista paginada de heróis.
   - **Detalhes do Herói Cubit**: Gerencia os detalhes do herói selecionado.
   - **Favoritos Cubit**: Gerencia a lista de heróis favoritos.
